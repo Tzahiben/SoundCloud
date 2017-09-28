@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Soundcloud Gala</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+<body>
+<div id="side-menu">
+    <div id="images">
+        <img src="http://www.creativetriangle.co.uk/wp-content/uploads/2017/08/LADCOR_POS_RGB_STA-500x238.png"
+             class="SC">
+        <img src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c537.png" class="gala">
+    </div>
+
+    <nav>
+        <ul id="top-menu">
+            <li><a id="nav-home" href="#" class="active">Search</a></li>
+            <li><a id="nav-song" href="#">Songs Player</a></li>
+            <li><a id="nav-history" href="#">Search History</a></li>
+        </ul>
+    </nav>
+
+</div>
+
+<div id="content">
+
+    <div id="home" class="page">
+        <p><b>Search for a Song</b>
+            <br>
+            <input type="text" placeholder="Search" id="search">
+            <button id="go">Go</button>
+        <ul id="results">
+
+        </ul>
+
+        <div class="buttons">
+            <img id="list" class="arrangeMode" src="http://www.iconninja.com/files/896/815/643/list-sort-set-essential-icon.svg">
+            <img id="tiles" class="arrangeMode"  src="https://www.shareicon.net/download/2017/06/13/887011_images.svg">
+            <img id="next" src="https://cdn1.iconfinder.com/data/icons/utility/100/SVG_Utility-02-512.png">
+        </div>
+    </div>
+    <div id="song" class="page">
+        <p><b>Songs Player</b>
+            <img id="playerImage" class="pointer hide"/>
+        <div id="player"></div>
+    </div>
+
+    <div id="history" class="page">
+        <p><b>Search History</b>
+        <ul id="historyList"></ul>
+    </div>
+
+</div>
+<script data-main="main" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.5/require.min.js"></script>
+</body>
+</html>

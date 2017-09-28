@@ -1,0 +1,115 @@
+body{
+margin: 0;
+}
+
+a {
+    font-size: 220%;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+#side-menu{
+    float: left;
+    max-width: 280px;
+    padding: 1cm;
+    background: #20b2aa;
+    position: fixed;
+    height: 100%;
+    margin:auto;
+}
+#images{
+    margin-left: 27%;
+}
+
+.SC{
+    width:120px;
+}
+
+.gala{
+    width:120px;
+    display: block;
+}
+
+nav #top-menu {
+    list-style: none;
+}
+
+#top-menu li {
+    padding-bottom: 1cm;
+}
+
+#top-menu a:hover {
+    text-decoration: underline;
+    text-shadow: 2px 2px #000000;
+}
+
+#next{
+    height: 1cm;
+    width: 1cm;
+}
+
+.active{
+    color: #ff7f50;
+    text-shadow: 2px 2px #000000;
+}
+
+#content {
+    margin-left: 170px;
+    overflow: hidden;
+}
+
+.page {
+    padding-top:2px;
+    padding-left: 6cm;
+    height: 500px;
+    width: 100%;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0+100;Blue+to+Transparent */
+    background: -moz-radial-gradient(center, ellipse cover, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#history{
+    height: 250px;
+}
+
+#results{
+    height:310px;
+    width:600px;
+}
+#put {
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+#playerImage {
+    height: 12cm;
+    display: block;
+    margin-top: 5px;
+}
+
+.buttons{
+    display: block;
+}
+.arrangeMode{
+    height:1cm;
+    width:1cm;
+}
+
+.result-item.tiles{
+    width:24%;
+    margin: 3px;
+    border: 1px solid black;
+}
+
+#player{
+    width:30cm;
+}
